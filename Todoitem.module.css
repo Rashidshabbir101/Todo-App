@@ -1,0 +1,36 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todoDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .todoName {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .todoTime {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
